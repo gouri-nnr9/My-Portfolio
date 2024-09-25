@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init({
+        publicKey: "QPCq88C8wXrk4yZF4",
+    });
+    })();
+    </script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="logo1.jpg" alt="Logo" />
+        </a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
+    </header>
+    <!-- Add sections for each of the links -->
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="my-photo2.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Gouri</span></h1>
+            <h3 class="typing-text">I'm a Web Developer & Designer <span></span></h3>
+            <p>Welcome''''</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/gouri-desai-775614261" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/gouri-nnr9/automationpayroll.git" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <a href="Gouri_Resume_new.pdf" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <!-- Placeholder sections -->
+    <section id="about">
+        
+
+        <!-- Content goes here -->
+        <div class="about-container">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I'm Gouri Desai Studied Master's of Computer Applications at KLS Gogte Institute of Technology, Belagavi. I'm a Creative Full Stack Web Developer as well as an Php developer with Background knowledge of MERN Stacks .Also, I'm passionate about developing User-friendly Websites that improves the lives of those around me and I also like solving Competitive programming questions</p>
+            </div>
+            <!-- Horizontal Line -->
+            <hr class="divider">
+            <!-- Few Highlights -->
+            <div class="highlights">
+                <h3>Here are a Few Highlights:</h3>
+                <ul>
+                    <li>Front and Back End Developer</li>
+                    <li>Php Developer</li>
+                    <li>Mern Stack Developer</li>
+                    <li>Developer</li>
+                </ul>
+            </div>
+            <div class="about-img">
+                <img src="my-photo1.jpg" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <h2 class="section-title">My Resume</h2>
+        <div class="resume-container">
+           
+            <div class="resume-menu">
+                <button data-section="personal-info">
+                    <i class="fas fa-user"></i> Personal Info
+                </button>
+                <button data-section="education">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </button>
+                <button data-section="internship">
+                    <i class="fas fa-briefcase"></i> Internship
+                </button>
+                <button data-section="skills">
+                    <i class="fas fa-cogs"></i> Skills
+                </button>
+                <button data-section="interests">
+                    <i class="fas fa-heart"></i> Interests/Hobbies
+                </button>
+            </div>
+            <!-- Resume Content -->
+        <div class="resume-content">
+            <!-- Personal Info -->
+            <div id="personal-info" class="resume-detail">
+                <h2>Personal Information</h2>
+                <div class="card">
+                    <h3>Basic Info</h3>
+                    <ul>
+                        <li>Name: Gouri</li>
+                        <li>Age: 23</li>
+                        <li>Email: gouri.nnr@example.com</li>
+                        <li>Profession : MCA</li>
+                        <li>Natinality: Indian</li>
+                        <li>Name: John Doe</li>
+                        <li>Languages: ENglish, Hindi, Kannada</li>
+                        <li>Phone: 123-456-7890</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div id="education" class="resume-detail">
+                <h2>Education</h2>
+                <!--<div class="card">
+                    <h3>KLS Gogte Institute of Technology, Belagavi</h3>
+                    <p>Bachelor of Engineering, Aggregate Score: 8.77 CGPA</p>
+                </div>
+                <div class="card">
+                    <h3>Vagdevi Vikas PU Science College, Mudhol (2017-2018)</h3>
+                    <p>Class 12, KEA Board, Aggregate Score: 95% PCM</p>
+                </div>
+                <div class="card">
+                    <h3>Rotary English Medium Highschool, Mudhol (2015-2016)</h3>
+                    <p>Class 10, KSEEB Board, Aggregate Score: 96.64%</p>
+                </div>-->
+                <div class="timeline">
+                    <div class="timeline-event">
+                      <h4>KLS Gogte Institute of Technology, Belagavi</h4>
+                      <p>Master's of Computer Applications - 2020-2023</p>
+                    </div>
+                    <div class="timeline-event">
+                        <h4>Bldea's Bca College Jsmkhandi</h4>
+                        <p>Bachelor's of Computer Applications - 2019-2022</p>
+                      </div>
+                    <div class="timeline-event">
+                      <h4>Goverment Girls College Jamkhandi</h4>
+                      <p>Class 12, KEA Board - Pcmb - 2017-2018</p>
+                    </div>
+                    <div class="timeline-event">
+                        <h4>Noble Convent School</h4>
+                        <p>Class 10, KEA Board 2017 Passout</p>
+                      </div>
+                </div>
+                <!-- Add the Download Resume Button here -->
+              <div class="download-resume">
+                <a href="Gouri_Resume_new.pdf" download class="btn">Download My Resume</a>
+              </div>
+              <!-- Add similar structure for internship, skills, and interests -->
+            </div>
+            <!--SKILLS-->
+            <div class="resume-detail" id="skills">
+                <h2 class="skills-title">My Skills</h2>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        HTML & CSS
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        JavaScript
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        PHP
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <!-- Add more skill items as needed -->
+                </div>
+                
+            </div>
+            <!-- Resume Details Sections -->
+            <div id="interests" class="resume-detail">
+                <h3>Hobbies & Interests</h3>
+                <ul>
+                    <li>Photography</li>
+                    <li>Traveling</li>
+                    <li>Gardening</li>
+                    <li>Coding personal projects</li>
+                    <li>Playing Badminton</li>
+                </ul>
+            </div>
+            <!-- Other sections -->
+            <div class="resume-detail" id="internship">
+                <h3>Payroll Automation</h3>
+                <h4>Php Web Developer Intern</h4>
+                <p>Job Responsibilities:</p>
+                <ul>
+                    <li>Worked as a Web Developer Intern.</li>
+                    <li>Built a Payroll Employee and Salary Transaction Sites.</li>
+                    <li>Managed data in Mysql Server Database.</li>
+                    <li>Used Html Css Js Bootstrap and Php .</li>
+                </ul>
+            </div>
+             
+        </div>
+    </section>
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="card-body">
+                    <h3 class="project-title">Smart Payroll Processing</h3>
+                    <p class="project-description">Designed and Developed using a web application for automating payroll processing using PHP and other Web Technologies.
+                        Implemented features such as automated payroll calculations, employee data management, and real time updates. Focused on Creating a responsive, user-friendly interface and ensuring data security.
+                        </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-body">
+                    <h3 class="project-title">Second Childhood</h3>
+                    <p class="project-description">Designed and Developed using a web application for automating managing manual processing and operations of Old Age Home using Python GUI and SQL Server Database.
+                        Implemented features such as automated calculations of donations, residents data management and real time updates. The system permits the administrator to maintain the old Age Home activities.
+                        </p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-body">
+                    <h3 class="project-title">Libraby App</h3>
+                    <p class="project-description">This application leverages the MERN stack (MongoDB, Express.js, React.js, Node.js) to provide a seamless platform for managing library resources. Users can perform CRUD (Create, Read, Update, Delete) operations on books, authors, and members, facilitating efficient management of library inventory and user engagement.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="card-body">
+                    <h3 class="project-title">Online Temple Management System</h3>
+                    <p class="project-description">Designed and Developed using Web technologies with back-end on SQL Server and front- end on Asp.net C#. A web application with the purpose to assist Temple's Poojas and Sevas and Devotees.
+                        Added the features for devotees(users) to book the pooja details and get the receipt generated. Added the features for admin to record and manage the details of devotee(user).
+                        </p>
+                </div>
+            </div>
+        </div>   
+        
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <img src="contactme.jpg" alt="Contact Image" class="contact-image">
+            <form class="contact-form">
+                <h2>Contact Me</h2>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" onclick="sendMail()">Send</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <!--<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+</body>
+</html>
