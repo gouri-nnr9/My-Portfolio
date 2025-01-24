@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Typing Animation
     const typingText = document.querySelector('.typing-text span');
-    const texts = ["Web Developer", "Developer", "Web Designer", "YouTuber", "Script Writer"];
+    const texts = ["..Web Developer",  "...Web Designer", "...Exploring Creative Roles"];
     let index = 0;
 
     function type() {
